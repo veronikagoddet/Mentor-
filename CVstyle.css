@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'anaphora-extralightitalic';
+    src: url('anaphora-extralightitalic-webfont.woff2') format('woff2'),
+         url('anaphora-extralightitalic-webfont.woff') format('woff');
+}
+
+body{ 
+    background-image: url("siberie.jpg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    color: #2a4862; 
+    font-size: 2em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    color: slateblue;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration-line: underline ;
+    text-align: center;
+}
+nav{
+    color: #2a4862;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+a [image="miniature20201011_002721.jpg"]{
+    text-align: center;
+}
+a:hover{
+    text-decoration: overline;
+    color: #453E38;
+}
+.souligne{
+    text-decoration-line: underline;
+}
+
+mark{
+    background-color: gray; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+ 
+}
+
+.imageflottante{
+    float: both;
+}
+.dessous{
+    clear: both;
+}
+
+.profession{
+    color: #2a4862; 
+}
+
+em{
+    border-width: 0.2em;
+    border-color: #5e6469;
+    border-style: solid;
+    box-shadow: 1px 1px 0px #778794;
+
+}
+h3{
+    color: #2a4862; 
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 14px;    
+}
+
+a[titre="Aller vers commerciale sédentaire"]{
+    font-size: 0.5em;
+}
