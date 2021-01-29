@@ -1,13 +1,14 @@
 @font-face {
     font-family: 'anaphora-extralightitalic';
-    src: url('anaphora-extralightitalic-webfont.woff2') format('woff2'),
-         url('anaphora-extralightitalic-webfont.woff') format('woff');
+    src: url("../anaphora-extralightitalic-webfont.woff2") format('woff2'),
+         url('../anaphora-extralightitalic-webfont.woff') format('woff');
 }
 
 body{ 
-    background-image: url("siberie.jpg");
+    background-image: url("../baikal.jpg");
     font-weight: normal;
     font-style: normal;
+    background-repeat: no-repeat;
 }
 
 h1{
