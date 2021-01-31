@@ -133,12 +133,12 @@ section
 {
 display: flex;
 flex-direction: column;
-flex-wrap: wrap-reverse;
+flex-wrap: wrap;
 margin: auto;
 
 }
 
-h3{
+h3{ 
     color: #2a4862; 
     font-size: 1.5em;
 }
@@ -150,6 +150,23 @@ em{
     box-shadow: 1px 1px 0px #778794;
 }
 
+#Compétences
+{
+    display: flex;
+    width: 40%;
+}
+
+#Expériences_professionnelles
+{
+    display: flex;
+    width: 40%;
+}
+
+#Formation
+{
+    display: flex;
+    width: 40%;
+}
 
 /*Pied de page*/
 
@@ -163,6 +180,7 @@ footer{
     text-align: center;
     padding: 5px;
     margin: auto;
+    display: flex;
 }
 
 footer ul
