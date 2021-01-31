@@ -1,99 +1,146 @@
-#conteneur{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
+/*Définition de police personnalisée*/
 
-.element:nth-child(5) /*On prend 5ème bloc élément*/
+@font-face
 {
-    align-self:flex-start;
-}
-@font-face{
     font-family: 'anaphora-extralightitalic';
     src: url("../anaphora-extralightitalic-webfont.woff2") format('woff2'),
          url('../anaphora-extralightitalic-webfont.woff') format('woff');
 }
 
-nav{
-    color: #2a4862;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-    font-size: 1em;
-    border: 1px dashed black;
-    text-align: center;
-    padding: 5px;
-    margin: auto;
+/*Eléments principaux de la page*/
+
+body
+{ 
+    background-image: url("../Images/baikal.jpg");;
+    background-repeat: no-repeat;
 }
 
-body{ 
-        background-image: url("../Images/baikal.jpg");;
-        font-weight: normal;
-        font-style: normal;
-        background-repeat: no-repeat;
-}
-header{
-    margin: auto;
-    padding: auto;
-    text-align: center;
-    font-weight: bold;
-
-}
-
-h1{
-        color: #2a4862; 
-        font-size: 2em;
-        font-style: normal;
-        
-    }
-
-h2{
-        color: slateblue;
-        font-size: 1.8em;
-        font-style: oblique;
-        text-decoration-line: underline ;
-    }
-
-a[image="miniature20201011_002721.jpg"]{
-    text-align: left;
-    width: auto;
-    margin: auto;
-}
-.dessous{
-    clear: both;
-}
-mark{
-    background-color: gray; 
+section
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
     text-align: justify;
-    width: auto;
-    margin: auto;
-}
-section{
+    color: #283743;
     width: 40%;
     margin: auto;
     padding: auto;
-    text-align: justify;
 }
-p{
-    color: #283743;
-}
-
-a:hover{
+a:hover
+{
     text-decoration: overline;
     color: #453E38;
 }
-.souligne{
+
+.souligne
+{
     text-decoration-line: underline;
 }
+
+/*Bloc page*/
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+    margin-left: 5%;
+    font-family: "anaphora-extralightitalic", serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-between;
+}
+
+#photo 
+{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 20%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column; 
+    align-items: space-between;
+    width: 30%;
+    margin-left: 8%;
+}
+
+h1
+{
+        color: #2a4862; 
+        font-size: 1.8em;
+        font-style: normal;
+}
+
+h2
+{
+        color: slateblue;
+        font-size: 1.5em;
+        font-style: oblique;
+        text-decoration-line: underline;
+}
+
+#coordonnées
+{
+    display: flex;
+    margin-left: auto;
+    width: 30%;
+}
+
+/*Navigation*/
+
+Nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin: 15px;
+}
+
+#Présentation
+
+.dessous{
+    clear: both;
+}
+
+mark{
+    background-color: gray;
+    font-family: "anaphora-extralightitalic"; 
+    text-align: justify;
+    width: auto;
+    margin: auto;
+}
+
 .imageflottante{
     float: right;
 }
 
-
 .profession{
     color: #2a4862; 
+}
+
+/*Corps*/
+
+section
+{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap-reverse;
+margin: auto;
+
+}
+
+h3{
+    color: #2a4862; 
+    font-size: 1.5em;
 }
 
 em{
@@ -101,16 +148,10 @@ em{
     border-color: #5e6469;
     border-style: solid;
     box-shadow: 1px 1px 0px #778794;
-
-}
-h3{
-    color: #2a4862; 
-    font-size: 1.5em;
 }
 
-a [titre="Accueil"]{
-    font-size: 1em;
-}
+
+/*Pied de page*/
 
 footer{
     color: #2a4862;
@@ -121,6 +162,19 @@ footer{
     border: 1px dashed black;
     text-align: center;
     padding: 5px;
-    margin: auto; 
+    margin: auto;
+}
 
+footer ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+    list-style-type: none;
+}
+
+footer li
+{
+    margin: 15px;
 }
