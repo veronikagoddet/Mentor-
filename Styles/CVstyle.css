@@ -21,9 +21,7 @@ section
     font-weight: normal;
     text-align: justify;
     color: #283743;
-    width: 40%;
-    margin: auto;
-    padding: auto;
+
 }
 a:hover
 {
@@ -40,23 +38,19 @@ a:hover
 
 #bloc_page
 {
-    width: 100%;
-    margin: auto;
+    width: 90%;
     margin-left: 5%;
     font-family: "anaphora-extralightitalic", serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: space-between;
 }
 
 #photo 
 {
     display: flex;
-    flex-direction: row;
-    width: 30%;
-    height: 20%;
+    flex-direction: column;
+    text-align: left;
     margin-top: 8%;
     margin-left: 5%;
 }
@@ -64,10 +58,8 @@ a:hover
 header
 {
     display: flex;
-    flex-direction: column; 
-    align-items: space-between;
-    width: 30%;
-    margin-left: 8%;
+    flex-direction: column;
+    text-align: left; 
 }
 
 h1
@@ -88,8 +80,7 @@ h2
 #coordonnées
 {
     display: flex;
-    margin-left: auto;
-    width: 30%;
+
 }
 
 /*Navigation*/
@@ -153,19 +144,16 @@ em{
 #Compétences
 {
     display: flex;
-    width: 40%;
 }
 
 #Expériences_professionnelles
 {
     display: flex;
-    width: 40%;
 }
 
 #Formation
 {
     display: flex;
-    width: 40%;
 }
 
 /*Pied de page*/
